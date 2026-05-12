@@ -1,5 +1,7 @@
 # 简易 Linux 操作系统制作与启动指南
-
+- 简单命令构建：./build.sh 下载和编译linux内核和alpine的rootfs
+- 简单命令运行: ./run.sh 使用qemu运行这个操作系统
+- 简单iso创建: ./make_iso.sh 创建iso，vmware可以运行
 ## 1. 所需组件与工具
 制作一个功能强大的 Linux 操作系统，主要需要以下三个核心组件和相关编译工具：
 
